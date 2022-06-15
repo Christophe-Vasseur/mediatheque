@@ -1,8 +1,11 @@
 
 
   <!-- Liste des cartes -->
-  <div class="d-inline-flex" *ngFor="let elt of listParam">
-    <app-product-card [eltParam]="elt"></app-product-card>
+  <div class="container mx-auto mt-4">
+    <div class="d-flex flex-wrap justify-content-center">
+      <div *ngFor="let elt of listParam">
+        <app-product-card [eltParam]="elt"></app-product-card>
+      </div>
+    </div>
   </div>
-
 
