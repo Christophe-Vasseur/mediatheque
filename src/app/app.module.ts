@@ -8,6 +8,8 @@ import { NotFoundComponent } from './_commons/not-found/not-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { FooterComponent } from './_commons/footer/footer.component';
 import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { ProductListComponent } from './pages/product-page/product-list/product-list.component';
+import { ProductCardComponent } from './pages/product-page/product-card/product-card.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
     HomePageComponent,
     FooterComponent,
     ProductPageComponent,
+    ProductListComponent,
+    ProductCardComponent,
 
   ],
   imports: [
