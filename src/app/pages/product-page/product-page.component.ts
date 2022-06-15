@@ -45,7 +45,7 @@ export class ProductPageComponent implements OnInit {
       nom: "The Dark Side of the Moon",
       artiste: "Pink Floyd",
       annee: 1973,
-      img: "",
+      img: "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Dark_Side_of_the_Moon_Cover.svg",
       details: ""
       },
       {
@@ -53,7 +53,7 @@ export class ProductPageComponent implements OnInit {
         nom: "Space Oddity",
         artiste: "David Bowie",
         annee: 1969,
-        img: "",
+        img: "https://m.media-amazon.com/images/I/81GaOhfPyFL._SL1300_.jpg",
         details: ""
       }
     ];
@@ -67,7 +67,7 @@ export class ProductPageComponent implements OnInit {
     return this.films;
   }
 
-  getListAlbum(): any[] {
+  public getListAlbum(): any[] {
     return this.albums;
   }
 

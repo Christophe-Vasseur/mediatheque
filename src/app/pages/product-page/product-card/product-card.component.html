@@ -8,6 +8,8 @@
   </span>
   <div class="card-body">
     <h5 *ngIf=eltParam.real class="card-title">Réalisateur : {{ eltParam.real }} </h5>
+    <h5 *ngIf=eltParam.artiste class="card-title">Artiste : {{ eltParam.artiste }} </h5>
+    <h6 class="card-title">Année : {{ eltParam.annee }} </h6>
     <p class="card-text" *ngIf=eltParam.synopsis>synopsis : {{ eltParam.synopsis }}</p>
     <a href="#" class="btn btn-primary">Infos</a>
   </div>
