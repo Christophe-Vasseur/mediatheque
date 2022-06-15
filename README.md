@@ -1,27 +1,36 @@
-# Mediatheque
+# Projet TP Mediatheque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+## Introduction
 
-## Development server
+Ce projet réalisé en Angular permet d'afficher une liste de films et d'album de musique.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies
 
-## Code scaffolding
+- Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Bootstrap
+## Ennoncé
 
-## Build
+Votre objectif est de créer une page qui liste les article, semblable à celle vu dans le cours.
+Vous utiliserez le composant product-page, qui servira de composant parent. C'est lui qui contiendra les 
+données des articles. Il appellera un composant enfant product-list dont la seule tâche sera de générer 
+autant de cartes que nécessaire, en appellant le composant product-card. Les composants enfant lui 
+n'auront AUCUNE logique : ils ne seront chargés que de l'affichage. ProductListComponent est chargé 
+d'afficher le composant ProductCardComponent, qui lui affiche les informations de l'article.
+Vous aurez donc 3 composants à réaliser.
+Concernant le style, vous êtes libres ! Essayez de faire quelque chose d'un minimum présentable, car nous 
+allons beaucoup travailler sur ce projet !
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Guide d'utilisation
 
-## Running unit tests
+Cloner le projet sur votre machine
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`git clone https://github.com/Christophe-Vasseur/mediatheque`
 
-## Running end-to-end tests
+Installation des dépendances
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`npm install`
 
-## Further help
+Lancement du serveur
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`ng serve -o`
