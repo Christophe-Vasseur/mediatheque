@@ -35,7 +35,25 @@ export class ProductPageComponent implements OnInit {
     annee: 1999,
     img: "",
     details: ""
-    }
+    },
+    {
+    id: 4,
+    nom: "American Pie : No Limit !",
+    real: "Steve Rash",
+    synopsis: "Après avoir ruiné la cérémonie de remise des diplômes de son lycée, Matt Stifler, petit frère de Steve, est envoyé à Toal Oaks durant tout l'été en guise de punition. Mais le jeune... ",
+    annee: 2005,
+    img: "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL4Z73/image?locale=fr-fr&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
+    details: ""
+    },
+    {
+      id: 5,
+      nom: "Tarantula",
+      real: "Jack Arnold",
+      synopsis: "Dans un laboratoire isolé, le Professeur Gerald Deemer travaille sur un nutriment qui permettrait de soulager la famine que menace de provoquer l'accroissement de population. Ses expérimentations ont abouti à certains résultats ; mais au prix de sérieux déboires. Un jour qu'il s'est absenté, deux de ses collègues s'injectent le nutriment...",
+      annee: 1955,
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tarantula_1955.jpg/290px-Tarantula_1955.jpg",
+      details: ""
+      },
     ];
 
     // Liste des albums
@@ -55,7 +73,31 @@ export class ProductPageComponent implements OnInit {
         annee: 1969,
         img: "https://m.media-amazon.com/images/I/81GaOhfPyFL._SL1300_.jpg",
         details: ""
-      }
+      },
+      {
+        id: 6,
+        nom: "Becassine",
+        artiste: "Chantal Goya",
+        annee: 1979,
+        img: "https://fr.shopping.rakuten.com/photo/321257880.jpg",
+        details: ""
+      },
+      {
+        id: 7,
+        nom: "Live And Dangerous",
+        artiste: "Thin Lizzy",
+        annee: 1978,
+        img: "https://www.auxportesdumetal.com/reviews/ThinLizzy/thinlizzy-liveanddangerous170.jpg",
+        details: ""
+      },
+      {
+        id: 8,
+        nom: "Surfing With The Alien",
+        artiste: "Joe Satriani",
+        annee: 1986,
+        img: "https://m.media-amazon.com/images/I/818ZIp4Ez3L._SL1500_.jpg",
+        details: ""
+      },
     ];
 
   constructor() { }
