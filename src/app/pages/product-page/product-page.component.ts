@@ -63,4 +63,12 @@ export class ProductPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public getListFilm(): any[] {
+    return this.films;
+  }
+
+  getListAlbum(): any[] {
+    return this.albums;
+  }
+
 }

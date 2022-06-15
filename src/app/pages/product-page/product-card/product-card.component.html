@@ -1,1 +1,16 @@
-<p>product-card works!</p>
+<div class="card" style="width: 18rem;">
+  <h5 class="card-title">{{ eltParam.nom }}</h5>
+  <span *ngIf=eltParam.img>
+    <img [src]="eltParam.img" class="card-img-top" alt="...">
+  </span>
+  <span *ngIf=!eltParam.img>
+    <img src="https://st4.depositphotos.com/1064024/20942/i/600/depositphotos_209420380-stock-photo-digital-illustration-of-a-little.jpg" class="card-img-top" alt="...">
+  </span>
+  <div class="card-body">
+    <h5 *ngIf=eltParam.real class="card-title">Réalisateur : {{ eltParam.real }} </h5>
+    <p class="card-text" *ngIf=eltParam.synopsis>synopsis : {{ eltParam.synopsis }}</p>
+    <a href="#" class="btn btn-primary">Infos</a>
+  </div>
+</div>
+
+
